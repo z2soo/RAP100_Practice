@@ -1,7 +1,7 @@
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: '##GENERATED ZRAP100_ATRAV300'
 define root view entity ZRAP100_R_TRAVELTP_300
-  as select from zrap100_atrav300 as Travel
+  as select from zrap100_atrav300 as Travel 
 {
   key tabel_id as TabelID,
   agency_id as AgencyID,
